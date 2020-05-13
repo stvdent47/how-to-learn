@@ -9,10 +9,16 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+div {
+  border: 1px solid red;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  position: relative;
+  display: flex;
   /* выше установили ограничения для секции */
 }
 
@@ -28,4 +34,28 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.logo__header_place {
+  width: 183px;
+  height: 32px;
+  background-image: url(../images/logo_place_header.svg);
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+.header__title {
+  display: flex;
+  align-items: center;
+  width: 730px;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  
 }
