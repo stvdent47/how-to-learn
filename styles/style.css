@@ -98,10 +98,6 @@ h1, h2, h3 {
   right: 0px;
 }
 
-.description {
-
-}
-
 .two-columns {
   position: relative;
   margin: 0 auto;
@@ -187,5 +183,41 @@ h1, h2, h3 {
   margin: 20px 0 0;
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;
+}
+
+.feynman {
+  height: 790px;
+  background-color: #f2f2f2;
+  position: relative;
+  background-image: url(../images/feynman.png);
+  background-size: 867px 637px;
+  background-position: bottom 0 left 0;
+  background-repeat: no-repeat;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  width: 648px;
+  text-align: center;
+  margin: 100px auto 0;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  margin: 70px auto;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  line-height: 51px;
+  font-size: 36px;
   font-weight: normal;
 }
