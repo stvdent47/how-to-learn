@@ -64,6 +64,10 @@ div {
   z-index: 1;
 }
 
+.header__link {
+  color: #2f80ed;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
