@@ -7,4 +7,6 @@
 
 :link:hover {
   cursor: pointer;
+  opacity: .5;
+  transition: .3s;
 }
