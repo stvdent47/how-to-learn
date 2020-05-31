@@ -4,9 +4,3 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-.link:hover {
-  cursor: pointer;
-  opacity: .5;
-  transition: .3s;
-}
